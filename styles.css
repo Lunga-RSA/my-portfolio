@@ -1,0 +1,32 @@
+.stack{
+    width: 160px;
+}
+.contact{
+    display: flex;
+    margin-top: 20px;
+    gap: 200px;
+}
+.sub-contact{
+    margin-left: 40px;
+}
+input{
+    width: 317px;
+    outline: none;
+    height: 40px;
+}
+textarea{
+    outline: none;
+    width: 660px;
+   
+}
+@media(max-width: 992px) {
+    .contact{
+        display: block;
+    }
+    .sub-contact{
+        margin: auto;
+    }
+    textarea{
+        max-width: 300px;
+    }
+}
